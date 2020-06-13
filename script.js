@@ -1,7 +1,7 @@
 // hello sneakers
 // there's nothing to watch here
 // hehehehehe
-// POWER TO THE BBS
+// BBS
 
 
 function dots(num) {
