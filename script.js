@@ -4,13 +4,6 @@
 // POWER TO THE BBS
 
 
-let videos = ['bedroom_1.webm', 'kitchen_1.webm', 'kitchen_2.webm', 'living_room_1.webm', 'living_room_2.webm']
-function chooseVideo() {
-    let v = document.getElementById('gan');
-    v.src = videos[Math.floor(Math.random() * videos.length)]
-} 
-window.onload = chooseVideo();
-
 function dots(num) {
     let a = "<span class='dot'>&bull;</span>";
     return "<span id='dots'>" + a.repeat(num) + "</span>"
